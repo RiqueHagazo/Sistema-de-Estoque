@@ -1,0 +1,38 @@
+# Doxyfile do Sistema de Estoque.  Gerar a documentação:  make doc   (ou: doxygen Doxyfile)
+# Só as opções que diferem do padrão do Doxygen estão listadas.
+
+PROJECT_NAME           = "Sistema de Estoque"
+PROJECT_BRIEF          = "Estoque, vendas e usuários em C++17 - conversão do projeto Flask/MySQL para POO com persistência em JSON"
+OUTPUT_DIRECTORY       = docs/doxygen
+OUTPUT_LANGUAGE        = Brazilian
+CREATE_SUBDIRS         = NO
+
+# o que documentar
+INPUT                  = include src README.md docs/USER_STORIES.md docs/CRC.md
+FILE_PATTERNS          = *.hpp *.cpp *.md
+RECURSIVE              = YES
+USE_MDFILE_AS_MAINPAGE = README.md
+MARKDOWN_SUPPORT       = YES
+
+# conteúdo
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+JAVADOC_AUTOBRIEF      = YES
+BUILTIN_STL_SUPPORT    = YES
+SOURCE_BROWSER         = YES
+INLINE_SOURCES         = NO
+
+# saída
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+HTML_OUTPUT            = html
+
+# diagramas de classes/chamadas exigem o Graphviz (comando "dot"): troque para YES se o tiver instalado
+HAVE_DOT               = NO
+CLASS_GRAPH            = YES
+
+# avisos
+QUIET                  = YES
+WARN_IF_DOC_ERROR      = YES
+WARN_IF_UNDOCUMENTED   = NO

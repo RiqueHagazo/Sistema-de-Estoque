@@ -1,0 +1,551 @@
+
+==================================================================
+ primeiro acesso
+==================================================================
+nenhum usuário cadastrado: crie o administrador do sistema.
+usuário: admin
+senha: (oculta)
+repita a senha: (oculta)
+>> cadastrado com sucesso
+
+==================================================================
+ digite usuário e senha
+==================================================================
+(deixe o usuário em branco para encerrar)
+usuário: admin
+senha: (oculta)
+
+==================================================================
+ home                                       admin (administrador)
+==================================================================
+bem vindo(a) admin!
+
+  1) produtos
+  2) categoria
+  3) retirada
+  4) alertas
+  5) registro
+  6) administrativo
+  0) sair
+opção: 2
+
+==================================================================
+ categoria                                  admin (administrador)
+==================================================================
+nenhuma categoria cadastrada
+
+  1) adicionar +
+  0) voltar
+opção: 1
+nome da categoria: mercearia
+>> salvo
+
+==================================================================
+ categoria                                  admin (administrador)
+==================================================================
+id da categoria | nome
+----------------+----------
+1               | mercearia
+
+  1) adicionar +
+  0) voltar
+opção: 1
+nome da categoria: laticínios
+>> salvo
+
+==================================================================
+ categoria                                  admin (administrador)
+==================================================================
+id da categoria | nome
+----------------+-----------
+2               | laticínios
+1               | mercearia
+
+  1) adicionar +
+  0) voltar
+opção: 0
+
+==================================================================
+ home                                       admin (administrador)
+==================================================================
+bem vindo(a) admin!
+
+  1) produtos
+  2) categoria
+  3) retirada
+  4) alertas
+  5) registro
+  6) administrativo
+  0) sair
+opção: 1
+
+==================================================================
+ produtos                                   admin (administrador)
+==================================================================
+nenhum produto cadastrado
+
+  1) adicionar +
+  2) pesquisar por nome
+  3) excluir
+  4) repor estoque
+  0) voltar
+opção: 1
+
+==================================================================
+ cadastrar produto                          admin (administrador)
+==================================================================
+id da categoria | nome
+----------------+-----------
+2               | laticínios
+1               | mercearia
+categoria (código): 1
+nome: arroz
+quantidade: 20
+valor: 19,99
+descrição (opcional): pacote de 5 kg
+data de chegada (dd/mm/aaaa, enter = hoje): 01/10/2026
+data de validade (dd/mm/aaaa, enter = sem validade): 
+>> salvo
+
+==================================================================
+ produtos                                   admin (administrador)
+==================================================================
+código | nome  | quantidade | valor   | descrição      | chegada    | validade | categoria
+-------+-------+------------+---------+----------------+------------+----------+----------
+1      | arroz | 20         | R$19.99 | pacote de 5 kg | 01/10/2026 | -        | mercearia
+
+  1) adicionar +
+  2) pesquisar por nome
+  3) excluir
+  4) repor estoque
+  0) voltar
+opção: 1
+
+==================================================================
+ cadastrar produto                          admin (administrador)
+==================================================================
+id da categoria | nome
+----------------+-----------
+2               | laticínios
+1               | mercearia
+categoria (código): 2
+nome: leite integral
+quantidade: 12
+valor: 4,50
+descrição (opcional): caixa de 1 L
+data de chegada (dd/mm/aaaa, enter = hoje): 01/10/2026
+data de validade (dd/mm/aaaa, enter = sem validade): 31/12/2099
+>> salvo
+
+==================================================================
+ produtos                                   admin (administrador)
+==================================================================
+código | nome           | quantidade | valor   | descrição      | chegada    | validade   | categoria
+-------+----------------+------------+---------+----------------+------------+------------+-----------
+1      | arroz          | 20         | R$19.99 | pacote de 5 kg | 01/10/2026 | -          | mercearia
+2      | leite integral | 12         | R$4.50  | caixa de 1 L   | 01/10/2026 | 31/12/2099 | laticínios
+
+  1) adicionar +
+  2) pesquisar por nome
+  3) excluir
+  4) repor estoque
+  0) voltar
+opção: 1
+
+==================================================================
+ cadastrar produto                          admin (administrador)
+==================================================================
+id da categoria | nome
+----------------+-----------
+2               | laticínios
+1               | mercearia
+categoria (código): 2
+nome: iogurte natural
+quantidade: 3
+valor: 3,20
+descrição (opcional): bandeja com 4
+data de chegada (dd/mm/aaaa, enter = hoje): 01/01/2026
+data de validade (dd/mm/aaaa, enter = sem validade): 15/01/2026
+>> salvo
+
+==================================================================
+ produtos                                   admin (administrador)
+==================================================================
+código | nome            | quantidade | valor   | descrição      | chegada    | validade   | categoria
+-------+-----------------+------------+---------+----------------+------------+------------+-----------
+1      | arroz           | 20         | R$19.99 | pacote de 5 kg | 01/10/2026 | -          | mercearia
+2      | leite integral  | 12         | R$4.50  | caixa de 1 L   | 01/10/2026 | 31/12/2099 | laticínios
+3      | iogurte natural | 3          | R$3.20  | bandeja com 4  | 01/01/2026 | 15/01/2026 | laticínios
+
+  1) adicionar +
+  2) pesquisar por nome
+  3) excluir
+  4) repor estoque
+  0) voltar
+opção: 2
+pesquisar por produto: ARROZ
+
+==================================================================
+ resultado da pesquisa                      admin (administrador)
+==================================================================
+código | nome  | quantidade | valor   | descrição      | chegada    | validade | categoria
+-------+-------+------------+---------+----------------+------------+----------+----------
+1      | arroz | 20         | R$19.99 | pacote de 5 kg | 01/10/2026 | -        | mercearia
+
+==================================================================
+ produtos                                   admin (administrador)
+==================================================================
+código | nome            | quantidade | valor   | descrição      | chegada    | validade   | categoria
+-------+-----------------+------------+---------+----------------+------------+------------+-----------
+1      | arroz           | 20         | R$19.99 | pacote de 5 kg | 01/10/2026 | -          | mercearia
+2      | leite integral  | 12         | R$4.50  | caixa de 1 L   | 01/10/2026 | 31/12/2099 | laticínios
+3      | iogurte natural | 3          | R$3.20  | bandeja com 4  | 01/01/2026 | 15/01/2026 | laticínios
+
+  1) adicionar +
+  2) pesquisar por nome
+  3) excluir
+  4) repor estoque
+  0) voltar
+opção: 0
+
+==================================================================
+ home                                       admin (administrador)
+==================================================================
+bem vindo(a) admin!
+
+  1) produtos
+  2) categoria
+  3) retirada
+  4) alertas
+  5) registro
+  6) administrativo
+  0) sair
+opção: 3
+
+==================================================================
+ retirada                                   admin (administrador)
+==================================================================
+digite o codigo do produto: 1
+
+Código do produto     : 1
+Categoria             : mercearia
+Nome                  : arroz
+Quantidade em estoque : 20
+Valor                 : R$19.99
+Descrição             : pacote de 5 kg
+Data de chegada       : 01/10/2026
+Data de validade      : -
+
+Número de produtos vendidos: 2
+>> realizada com sucesso
+valor da venda: R$39.98
+
+==================================================================
+ registro de vendas                         admin (administrador)
+==================================================================
+produto | categoria | vendedor | data da venda | horario da venda | quantidade | valor
+--------+-----------+----------+---------------+------------------+------------+--------
+arroz   | mercearia | admin    | 03/11/2026    | 00:47:47         | 2          | R$39.98
+
+==================================================================
+ home                                       admin (administrador)
+==================================================================
+bem vindo(a) admin!
+
+  1) produtos
+  2) categoria
+  3) retirada
+  4) alertas
+  5) registro
+  6) administrativo
+  0) sair
+opção: 3
+
+==================================================================
+ retirada                                   admin (administrador)
+==================================================================
+digite o codigo do produto: 2
+
+Código do produto     : 2
+Categoria             : laticínios
+Nome                  : leite integral
+Quantidade em estoque : 12
+Valor                 : R$4.50
+Descrição             : caixa de 1 L
+Data de chegada       : 01/10/2026
+Data de validade      : 31/12/2099
+
+Número de produtos vendidos: 50
+>> erro: produtos insuficientes ou igual a zero
+
+==================================================================
+ home                                       admin (administrador)
+==================================================================
+bem vindo(a) admin!
+
+  1) produtos
+  2) categoria
+  3) retirada
+  4) alertas
+  5) registro
+  6) administrativo
+  0) sair
+opção: 5
+
+==================================================================
+ registro de vendas                         admin (administrador)
+==================================================================
+produto | categoria | vendedor | data da venda | horario da venda | quantidade | valor
+--------+-----------+----------+---------------+------------------+------------+--------
+arroz   | mercearia | admin    | 03/11/2026    | 00:47:47         | 2          | R$39.98
+
+  1) pesquisar por período
+  0) voltar
+opção: 1
+data inicial (dd/mm/aaaa): 01/01/2026
+data final (dd/mm/aaaa): 31/12/2099
+
+produto | categoria | vendedor | data da venda | horario da venda | quantidade | valor
+--------+-----------+----------+---------------+------------------+------------+--------
+arroz   | mercearia | admin    | 03/11/2026    | 00:47:47         | 2          | R$39.98
+
+valor por periodo: R$39.98
+
+  1) pesquisar por período
+  0) voltar
+opção: 0
+
+==================================================================
+ home                                       admin (administrador)
+==================================================================
+bem vindo(a) admin!
+
+  1) produtos
+  2) categoria
+  3) retirada
+  4) alertas
+  5) registro
+  6) administrativo
+  0) sair
+opção: 6
+
+==================================================================
+ administrativo                             admin (administrador)
+==================================================================
+usuário | grupo
+--------+--------------
+admin   | administrador
+
+  1) cadastrar usuário
+  2) excluir usuário
+  3) ver histórico de operações
+  0) voltar
+opção: 1
+usuário: maria
+senha: (oculta)
+grupo (0 = operador, 1 = administrador): 0
+>> cadastrado com sucesso
+
+==================================================================
+ administrativo                             admin (administrador)
+==================================================================
+usuário | grupo
+--------+--------------
+admin   | administrador
+maria   | operador
+
+  1) cadastrar usuário
+  2) excluir usuário
+  3) ver histórico de operações
+  0) voltar
+opção: 3
+
+==================================================================
+ histórico de operações                     admin (administrador)
+==================================================================
+2026-11-03 00:47:47 | sistema | PRIMEIRO_ACESSO | usuário admin (administrador)
+2026-11-03 00:47:47 | admin | LOGIN | administrador
+2026-11-03 00:47:47 | admin | CADASTRO_CATEGORIA | categoria 1 (mercearia)
+2026-11-03 00:47:47 | admin | CADASTRO_CATEGORIA | categoria 2 (laticínios)
+2026-11-03 00:47:47 | admin | CADASTRO_PRODUTO | produto 1 (arroz), quantidade 20
+2026-11-03 00:47:47 | admin | CADASTRO_PRODUTO | produto 2 (leite integral), quantidade 12
+2026-11-03 00:47:47 | admin | CADASTRO_PRODUTO | produto 3 (iogurte natural), quantidade 3
+2026-11-03 00:47:47 | admin | VENDA | venda 1 de 2 x arroz, total 39.98
+2026-11-03 00:47:47 | admin | CADASTRO_USUARIO | usuário maria (operador)
+
+==================================================================
+ administrativo                             admin (administrador)
+==================================================================
+usuário | grupo
+--------+--------------
+admin   | administrador
+maria   | operador
+
+  1) cadastrar usuário
+  2) excluir usuário
+  3) ver histórico de operações
+  0) voltar
+opção: 0
+
+==================================================================
+ home                                       admin (administrador)
+==================================================================
+bem vindo(a) admin!
+
+  1) produtos
+  2) categoria
+  3) retirada
+  4) alertas
+  5) registro
+  6) administrativo
+  0) sair
+opção: 0
+
+==================================================================
+ digite usuário e senha
+==================================================================
+(deixe o usuário em branco para encerrar)
+usuário: maria
+senha: (oculta)
+>> login/senha inválidos
+usuário: maria
+senha: (oculta)
+
+==================================================================
+ home                                            maria (operador)
+==================================================================
+bem vindo(a) maria!
+
+  1) produtos
+  2) categoria
+  3) retirada
+  4) alertas
+  0) sair
+opção: 5
+>> somente administradores
+
+==================================================================
+ home                                            maria (operador)
+==================================================================
+bem vindo(a) maria!
+
+  1) produtos
+  2) categoria
+  3) retirada
+  4) alertas
+  0) sair
+opção: 3
+
+==================================================================
+ retirada                                        maria (operador)
+==================================================================
+digite o codigo do produto: 2
+
+Código do produto     : 2
+Categoria             : laticínios
+Nome                  : leite integral
+Quantidade em estoque : 12
+Valor                 : R$4.50
+Descrição             : caixa de 1 L
+Data de chegada       : 01/10/2026
+Data de validade      : 31/12/2099
+
+Número de produtos vendidos: 4
+>> realizada com sucesso
+valor da venda: R$18.00
+
+==================================================================
+ home                                            maria (operador)
+==================================================================
+bem vindo(a) maria!
+
+  1) produtos
+  2) categoria
+  3) retirada
+  4) alertas
+  0) sair
+opção: 4
+
+==================================================================
+ alertas                                         maria (operador)
+==================================================================
+
+produtos vencidos
+código | nome            | quantidade | valor  | descrição     | chegada    | validade   | categoria
+-------+-----------------+------------+--------+---------------+------------+------------+-----------
+3      | iogurte natural | 3          | R$3.20 | bandeja com 4 | 01/01/2026 | 15/01/2026 | laticínios
+
+produtos que vencem em até 7 dias
+nenhum produto perto do vencimento
+
+produtos com estoque de até 5 unidades
+código | nome            | quantidade | valor  | descrição     | chegada    | validade   | categoria
+-------+-----------------+------------+--------+---------------+------------+------------+-----------
+3      | iogurte natural | 3          | R$3.20 | bandeja com 4 | 01/01/2026 | 15/01/2026 | laticínios
+
+==================================================================
+ home                                            maria (operador)
+==================================================================
+bem vindo(a) maria!
+
+  1) produtos
+  2) categoria
+  3) retirada
+  4) alertas
+  0) sair
+opção: 0
+
+==================================================================
+ digite usuário e senha
+==================================================================
+(deixe o usuário em branco para encerrar)
+usuário: admin
+senha: (oculta)
+
+==================================================================
+ home                                       admin (administrador)
+==================================================================
+bem vindo(a) admin!
+
+  1) produtos
+  2) categoria
+  3) retirada
+  4) alertas
+  5) registro
+  6) administrativo
+  0) sair
+opção: 5
+
+==================================================================
+ registro de vendas                         admin (administrador)
+==================================================================
+produto        | categoria  | vendedor | data da venda | horario da venda | quantidade | valor
+---------------+------------+----------+---------------+------------------+------------+--------
+arroz          | mercearia  | admin    | 03/11/2026    | 00:47:47         | 2          | R$39.98
+leite integral | laticínios | maria    | 03/11/2026    | 00:47:47         | 4          | R$18.00
+
+  1) pesquisar por período
+  0) voltar
+opção: 0
+
+==================================================================
+ home                                       admin (administrador)
+==================================================================
+bem vindo(a) admin!
+
+  1) produtos
+  2) categoria
+  3) retirada
+  4) alertas
+  5) registro
+  6) administrativo
+  0) sair
+opção: 0
+
+==================================================================
+ digite usuário e senha
+==================================================================
+(deixe o usuário em branco para encerrar)
+usuário: 
+
+até logo!

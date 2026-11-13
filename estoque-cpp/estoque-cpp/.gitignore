@@ -1,0 +1,18 @@
+# gerados pela compilação, testes e cobertura
+build/
+*.o
+*.d
+*.gcda
+*.gcno
+*.gcov
+
+# dados criados ao usar o programa
+dados/
+dados_demo/
+
+# documentação gerada pelo Doxygen
+docs/doxygen/
+
+# temporários
+*.tmp
+*~
